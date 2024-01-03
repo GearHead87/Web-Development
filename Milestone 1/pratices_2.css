@@ -1,0 +1,17 @@
+*{
+    margin: 2px;
+}
+
+.heading{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.para{
+    font-style: oblique;
+}
+
+.list{
+    border: 5px solid red;
+    border-radius: 25%;
+    display: inline;
+}
