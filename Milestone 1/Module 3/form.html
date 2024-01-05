@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pitha</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        label{
+            display: block;
+            margin: 10px;
+        }
+        input{
+            margin: 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">video</a></li>
+                <li><a href="form.html">form</a></li>
+                <li><a href="table.html">table</a></li>
+                <li><a href="blog.html">blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form>
+                <label for="name"> Your Name:
+                    <input id ="name" type="text" placeholder="Your name">
+                </label>
+                <label for="email"> Your Email:
+                    <input type="email" name="email" id="email" placeholder="Your Email">
+                </label>
+                <label for="phone"> Your phone:
+                    <input type="text" name="phone" id="phone" placeholder="phone">
+                </label>
+
+                <fieldset>
+                    <legend>Pick one show</legend>
+                    <label for="11"> 11
+                        <input type="radio" name="1" id="11">
+
+                    </label>
+                    <label for="22">22
+                        <input type="radio" name="1" id="22">
+
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>kire select kor na</legend>
+                    <label for="galll">112
+                        <input type="checkbox" name="22" id="112">
+                    </label>
+                    <label for="galll">223
+                        <input type="checkbox" name="22" id="223">
+                    </label>
+                </fieldset>
+                <input type="reset" value="reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

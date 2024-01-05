@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table in html</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">video</a></li>
+                <li><a href="form.html">form</a></li>
+                <li> table
+                    <ul class="dropdown">
+                        <li><a href="video.html">video</a></li>
+                        <li><a href="form.html">form</a></li>
+                        <li><a href="table.html">table</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Html table</h1>
+        <table>
+            <caption>Employee salary</caption>
+            <thead>
+                <tr>
+                    <th>no,</th>
+                    <th>name</th>
+                    <th>company</th>
+                    <th>salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>microsoft</td>
+                    <td>1000$</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Steeve jobs</td>
+                    <td>Apple</td>
+                    <td>1200$</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>mark jukar</td>
+                    <td>meta</td>
+                    <td>1500$</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">total employee: 4</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+
+</html>
